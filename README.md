@@ -61,12 +61,12 @@ The script normalizes both values to uppercase internally before creating direct
 
 Created structure for all runs:
 - `/data/$USER/<PI>/<TICKET>`
-- `data_raw`, `data`, `config`, `logs`, `scripts`, `results`, and `documents`
+- `data_raw/`, `data/`, `config/`, `logs/`, `scripts/`, `results/`, and `documents/`
 
 Optional extra trees:
-- R: `R/data`, `R/scripts`, `R/results`, `R/results/rds_files`, `R/results/tables`, `R/results/plots`
-- Python: `python/data`, `python/scripts`, `python/results`, `python/results/tables`, `python/results/plots`
-- Snakemake: `snakemake/data`, `snakemake/scripts`, `snakemake/config`, `snakemake/benchmark`, `snakemake/workflow/rules`, `snakemake/workflow/scripts`
+- R: `R/data/`, `R/scripts/`, `R/results/`, `R/results/rds_files/`, `R/results/tables/`, `R/results/plots/`
+- Python: `python/data/`, `python/scripts/`, `python/results/`, `python/results/tables/`, `python/results/plots/`
+- Snakemake: `snakemake/data/`, `snakemake/scripts/`, `snakemake/config/`, `snakemake/benchmark/`, `snakemake/workflow/rules/`, `snakemake/workflow/scripts/`
 
 ## 4. Examples
 
